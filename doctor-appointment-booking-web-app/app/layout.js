@@ -12,7 +12,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div>
+        {/* for nav bar  */}
+        <div className="md:px-20">
           <Header />
           {children}
         </div>
