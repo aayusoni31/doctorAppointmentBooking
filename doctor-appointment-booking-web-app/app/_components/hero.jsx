@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
-import { Image } from "lucide-react";
+// import { Image } from "lucide-react";
 import React from "react";
+import Image from "next/image";
 function Hero() {
   return (
     <section>
@@ -18,7 +19,7 @@ function Hero() {
 
           <div className="lg:py-24">
             <h2 className="text-3xl font-bold sm:text-4xl">
-              FInd & Book <span className="text-primary"> Apppointment </span>{" "}
+              Find & Book <span className="text-primary"> Apppointment </span>{" "}
               with your favouite <span className="text-primary"> Doctor </span>
             </h2>
 
